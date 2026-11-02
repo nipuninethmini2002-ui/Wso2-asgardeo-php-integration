@@ -33,8 +33,10 @@ asgardeo-app/
 2. Create a Traditional Web Application in the Asgardeo Console.
 3. Configure your Authorized Redirect URLs:
     http://localhost/asgardeo-app/callback.php
+   
     http://localhost/asgardeo-app/index.php
-4. Update your credentials in config.php:
+   
+5. Update your credentials in config.php:
 ``` text
 PHP
 define('ASGARDEO_TENANT', 'YOUR_TENANT_NAME');

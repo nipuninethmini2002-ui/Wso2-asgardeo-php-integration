@@ -32,6 +32,7 @@ asgardeo-app/
 1. Clone or download this repository into your local server root (e.g., htdocs/asgardeo-app).
 2. Create a Traditional Web Application in the Asgardeo Console.
 3. Configure your Authorized Redirect URLs:
+   
     http://localhost/asgardeo-app/callback.php
    
     http://localhost/asgardeo-app/index.php

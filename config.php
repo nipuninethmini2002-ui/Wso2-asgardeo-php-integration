@@ -1,8 +1,7 @@
 <?php
 session_start();
 
-// WSO2 Asgardeo Configuration
-define('ASGARDEO_TENANT', 'org9v5i2'); // උදා: nipuni-dev
+define('ASGARDEO_TENANT', 'org9v5i2'); 
 define('CLIENT_ID', 'ZE7U8uN63Q11GGmEZozkaGrgFpIa'); 
 define('CLIENT_SECRET', 'WALtsisEV_FgeSQxq3czICAQdMtdBEBKxkoZrWY1v1Ea'); 
 define('REDIRECT_URI', 'http://localhost/asgardeo-app/callback.php');

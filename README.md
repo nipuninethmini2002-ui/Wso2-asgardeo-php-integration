@@ -21,7 +21,8 @@ asgardeo-app/
 ├── index.php        # Landing page with dynamic UI (Login / User Email / Logout)
 ├── callback.php     # Handles auth code exchange for access/id tokens via cURL
 └── logout.php       # Destroys local session and clears cookies
-⚙️ Prerequisites & Setup
+
+## ⚙️ Prerequisites & Setup
 Local Server: XAMPP, WAMP, or any PHP server running PHP 7.4+ with cURL enabled.
 
 WSO2 Asgardeo Account: Set up a free developer account on WSO2 Asgardeo Console.
@@ -43,7 +44,8 @@ PHP
 define('ASGARDEO_TENANT', 'YOUR_TENANT_NAME');
 define('CLIENT_ID', 'YOUR_CLIENT_ID');
 define('CLIENT_SECRET', 'YOUR_CLIENT_SECRET');
-🧪 Running the Application
+
+##🧪 Running the Application
 Start your Apache server (XAMPP).
 
 Open your browser and navigate to:
@@ -52,9 +54,10 @@ Plaintext
 http://localhost/asgardeo-app/
 Click "Login with Asgardeo", enter your credentials, and explore the secure SSO flow!
 
-📝 Medium Article
+##📝 Medium Article
 For a detailed step-by-step tutorial on how this integration was built and the challenges overcome, check out the Medium blog post:
-👉 Read the Full Article on Medium
 
-👤 Author
+##👉 Read the Full Article on Medium
+
+##👤 Author
 P. Nipuni Nethmini

@@ -21,43 +21,45 @@ asgardeo-app/
 ├── index.php        # Landing page with dynamic UI (Login / User Email / Logout)
 ├── callback.php     # Handles auth code exchange for access/id tokens via cURL
 └── logout.php       # Destroys local session and clears cookies
-
+```
 ## ⚙️ Prerequisites & Setup
-Local Server: XAMPP, WAMP, or any PHP server running PHP 7.4+ with cURL enabled.
 
-WSO2 Asgardeo Account: Set up a free developer account on WSO2 Asgardeo Console.
+1. Local Server: XAMPP, WAMP, or any PHP server running PHP 7.4+ with cURL enabled.
+2. WSO2 Asgardeo Account: Set up a free developer account on WSO2 Asgardeo Console.
 
-Step-by-Step Configuration:
-Clone or download this repository into your local server root (e.g., htdocs/asgardeo-app).
+```
+```
+## Step-by-Step Configuration:
 
-Create a Traditional Web Application in the Asgardeo Console.
-
-Configure your Authorized Redirect URLs:
-
-http://localhost/asgardeo-app/callback.php
-
-http://localhost/asgardeo-app/index.php
-
-Update your credentials in config.php:
-
+1. Clone or download this repository into your local server root (e.g., htdocs/asgardeo-app).
+2. Create a Traditional Web Application in the Asgardeo Console.
+3. Configure your Authorized Redirect URLs:
+    http://localhost/asgardeo-app/callback.php
+    http://localhost/asgardeo-app/index.php
+4. Update your credentials in config.php:
+``` text
 PHP
 define('ASGARDEO_TENANT', 'YOUR_TENANT_NAME');
 define('CLIENT_ID', 'YOUR_CLIENT_ID');
 define('CLIENT_SECRET', 'YOUR_CLIENT_SECRET');
 
+```
 ##🧪 Running the Application
-Start your Apache server (XAMPP).
 
-Open your browser and navigate to:
+1. Start your Apache server (XAMPP).
+2. Open your browser and navigate to:
 
+```text
 Plaintext
 http://localhost/asgardeo-app/
-Click "Login with Asgardeo", enter your credentials, and explore the secure SSO flow!
+
+```
+3. Click "Login with Asgardeo", enter your credentials, and explore the secure SSO flow!
 
 ##📝 Medium Article
 For a detailed step-by-step tutorial on how this integration was built and the challenges overcome, check out the Medium blog post:
 
-##👉 Read the Full Article on Medium
+##👉 [Read the Full Article on Medium]([url](https://medium.com/@nipuninethmini2002/securing-a-php-application-with-wso2-asgardeo-a-step-by-step-oidc-sso-guide-8ee0697bf225))
 
 ##👤 Author
 P. Nipuni Nethmini

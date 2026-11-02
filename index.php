@@ -1,5 +1,4 @@
 <?php
-// Prevent browser caching
 header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
@@ -10,7 +9,6 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// JWT Payload එක Decode කර ගැනීමට Helper Function එකක්
 function parseJWT($jwt) {
     $parts = explode('.', $jwt);
     if (count($parts) === 3) {
@@ -25,7 +23,6 @@ function parseJWT($jwt) {
 $userEmail = "";
 if (isset($_SESSION['user_info']['id_token'])) {
     $claims = parseJWT($_SESSION['user_info']['id_token']);
-    // Asgardeo වල username එක සාමාන්‍යයෙන් email එකම වේ
     $userEmail = isset($claims['username']) ? $claims['username'] : (isset($claims['email']) ? $claims['email'] : 'User');
 }
 ?>

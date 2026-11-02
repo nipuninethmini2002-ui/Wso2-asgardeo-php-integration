@@ -27,8 +27,6 @@ asgardeo-app/
 1. Local Server: XAMPP, WAMP, or any PHP server running PHP 7.4+ with cURL enabled.
 2. WSO2 Asgardeo Account: Set up a free developer account on WSO2 Asgardeo Console.
 
-```
-```
 ## Step-by-Step Configuration:
 
 1. Clone or download this repository into your local server root (e.g., htdocs/asgardeo-app).
@@ -59,7 +57,7 @@ http://localhost/asgardeo-app/
 ##📝 Medium Article
 For a detailed step-by-step tutorial on how this integration was built and the challenges overcome, check out the Medium blog post:
 
-##👉 [Read the Full Article on Medium]([url](https://medium.com/@nipuninethmini2002/securing-a-php-application-with-wso2-asgardeo-a-step-by-step-oidc-sso-guide-8ee0697bf225))
+##👉 [Read the Full Article on Medium]((https://medium.com/@nipuninethmini2002/securing-a-php-application-with-wso2-asgardeo-a-step-by-step-oidc-sso-guide-8ee0697bf225))
 
 ##👤 Author
 P. Nipuni Nethmini
